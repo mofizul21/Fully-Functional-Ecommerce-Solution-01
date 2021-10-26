@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<main class="main">
+    {% for slider in sliders %}
+        <h2>{{ slider.title }}</h2>
+    {% endfor %}
+</main>
+{% endblock %}
